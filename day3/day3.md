@@ -53,9 +53,9 @@ flex속성은 flexbox 속성을 줄여서 나타낸 속성입니다. flex-grow�
 
 참고 사이트 [Flex CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-<div style="display:flex">
- <img src="./img/01-container.svg" alt="">
- <img src="./img/02-items.svg" alt="">    
+<div style="overflow: hidden">
+  <div style="width: 50%; float: left;"><img src="./img/01-container.svg" alt=""></div>
+  <div style="width: 50%; float: left"><img src="./img/02-items.svg" alt=""></div> 
 </div>
 
 ## [포지션 레이아웃(Position)](https://developer.mozilla.org/ko/docs/Web/CSS/position)
